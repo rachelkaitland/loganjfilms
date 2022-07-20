@@ -3656,7 +3656,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.308);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;

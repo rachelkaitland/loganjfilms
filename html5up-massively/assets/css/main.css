@@ -2675,7 +2675,35 @@ input, select, textarea {
 				margin: 2rem 0;
 			}
 
+			/* iframe sizing */
+		.imageHolder{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
 		}
+
+		iframe{
+			margin-bottom: 2rem;
+			height: 100%;
+			width: 100%;
+		}
+		
+
+
+		}
+/* iframe sizing */
+		.imageHolder{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		iframe{
+			margin-bottom: 2rem;
+		}
+		
 
 	a.image {
 		overflow: hidden;
@@ -3821,7 +3849,11 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 8rem 8rem 8rem 8rem ;
+		}
+
+		#padPost{
+			padding: 8rem 8rem 0 8rem !important;
 		}
 
 			#main > .post header.major > .date {
