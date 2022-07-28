@@ -2692,6 +2692,7 @@ input, select, textarea {
 
 
 		}
+	
 /* iframe sizing */
 		.imageHolder{
 			display: flex;
@@ -2703,7 +2704,8 @@ input, select, textarea {
 		iframe{
 			margin-bottom: 2rem;
 		}
-		
+	
+
 
 	a.image {
 		overflow: hidden;
