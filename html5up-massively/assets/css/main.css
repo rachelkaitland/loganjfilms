@@ -2032,7 +2032,10 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3rem;
 						}
-
+				
+						
+					
+							
 		}
 
 /* Box */
@@ -2254,6 +2257,10 @@ input, select, textarea {
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: rgb(3, 111, 219);
+			}
+
+			.maxButton{
+				min-width: 175px;
 			}
 
 /* Form */
@@ -4018,6 +4025,8 @@ input, select, textarea {
 			#main {
 				width: 100%;
 			}
+
+			
 
 		}
 
